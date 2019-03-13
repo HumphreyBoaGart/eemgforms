@@ -1,7 +1,7 @@
 # EE Mailgun Forms
 An alternative contact form solution for ExpressionEngine using the Mailgun API and reCAPTCHA v2. Include the tag with required parameters in any template to generate a form.
 
-If you wanna edit the form that spits out in the front-end, you'll have to edit `pi.mailgunforms.php` manually. I'll have a better system in place for this (and a simplified installation process) before the 1.0 release.
+If you wanna edit the form that spits out in the front-end, you'll have to edit `pi.eemgforms.php` manually. I'll have a better system in place for this (and a simplified installation process) before the 1.0 release.
 
 ## Requirements
 - ExpressionEngine 5 (might work in versions 3/4)
@@ -26,7 +26,7 @@ This tag will generate the form in your templates.
 Simply fill in the tag with your Mailgun API credentials, reCAPTCHA v2 keys, and recipient information.
 
 ```
-{exp:eemgforms domain="mailgun.domain.com" key="apikey" user="postmaster@mailgun.domain.com" to="recipient@domain.com" subject="Contact Form Submission" rc_site="publickey" rc_secret="privatekey"}
+{exp:eemgforms domain="mailgun.domain.com" segment="urisegment" key="apikey" user="postmaster@mailgun.domain.com" to="recipient@domain.com" subject="Contact Form Submission" rc_site="publickey" rc_secret="privatekey"}
 ```
 
 #### Parameters
