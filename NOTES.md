@@ -1,4 +1,4 @@
-# Notes
+# Dev Notes
 * Don't worry about integration with the built-in EE mailer or contact form functions, that should/will be its own plugin. This is specifically a lightweight bypass.
 
 # Publication
