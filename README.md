@@ -1,5 +1,5 @@
 # EE Mailgun Forms
-An alternative contact form solution using the Mailgun API and reCAPTCHA v2. Include the tag with required parameters in any template to generate a form.
+An alternative contact form solution for ExpressionEngine using the Mailgun API and reCAPTCHA v2. Include the tag with required parameters in any template to generate a form.
 
 If you wanna edit the form that spits out in the front-end, you'll have to edit `pi.mailgunforms.php` manually. I'll have a better system in place for this (and a simplified installation process) before the 1.0 release.
 
@@ -58,5 +58,5 @@ Your reCAPTCHA v2 private or secret key.
 
 ## Changelog
 
-### 0.1
+### 0.1 (3/13/2019)
 - Initial release.
