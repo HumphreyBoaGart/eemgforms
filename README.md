@@ -5,7 +5,7 @@ If you wanna edit the form that spits out in the front-end, you'll have to edit 
 
 ## Requirements
 - ExpressionEngine 5 (might work in versions 3/4)
-- [Composer](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
+- [Composer](https://getcomposer.org/)
 - [Bootstrap](https://getbootstrap.com) (Optional. You can define your own CSS classes, but the ones included with the default form are designed to work with Bootstrap out of the box)
 
 ## Installation
