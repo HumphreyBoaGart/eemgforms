@@ -15,7 +15,7 @@ class eemgforms {
 
 	public function __construct()
 	{
-		// Fetch, sanitize, and validate, connection settings for SMTP server.
+		// Fetch, sanitize, and validate, tag parameters.
 		$mgf_domain_pre	= ee('Security/XSS')->clean(ee()->TMPL->fetch_param('domain'));
 		$mgf_domain	 	= filter_var($mgf_domain_pre, FILTER_SANITIZE_URL);
 		$mgf_key		= ee('Security/XSS')->clean(ee()->TMPL->fetch_param('key'));
