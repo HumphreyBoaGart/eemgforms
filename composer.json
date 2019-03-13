@@ -1,0 +1,19 @@
+{
+    "name": "humphreyboagart/eemgforms",
+    "description": "An ExpressionEngine addon for building mail forms that use Mailgun",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://github.com/HumphreyBoaGart/eemgforms",
+    "authors": [
+        {
+            "name": "Dennis Wyman",
+            "email": "dennis@lanterns.io",
+            "homepage": "https://denniswyman.com"
+        }
+    ],
+    "require": {
+        "mailgun/mailgun-php": "^2.8",
+        "kriswallsmith/buzz": "^1.0",
+        "nyholm/psr7": "^1.1"
+    }
+}
